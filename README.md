@@ -30,3 +30,8 @@ You should create one R script called `run_analysis.R` that does the following.
 
 Good luck!
 #________________________________
+
+## Files in this repo (Getting-and-Cleaning-Data---Coursera)
+* README.md -- This file you are now reading
+* CodeBook.md -- A code book that describes the variables, the data, and any transformations
+* run_analysis.R -- R code
