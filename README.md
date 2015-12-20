@@ -29,5 +29,4 @@ You should create one R script called `run_analysis.R` that does the following.
    variable for each activity and each subject. 
 
 Good luck!
-
 #________________________________
