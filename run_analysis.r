@@ -1,6 +1,6 @@
 ## Alan Guilherme de Oliveira
 ## 21/12/2015
-## runAnalysis.r 
+## run_analysis.r 
 
 # This script will perform the following steps on the UCI HAR Dataset downloaded from 
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -80,6 +80,7 @@ finalData = rbind(testData, trainData)
 colNames  = colnames(finalData); 
 
 # Appropriately label the data set with descriptive activity names
+
 idLabels   = c("subject", "ActivityID", "ActivityLabel")
 dataLabels = setdiff(colNames, idLabels)
 meltData  = melt(finalData, id = idLabels, measure.vars = dataLabels)
@@ -88,16 +89,3 @@ meltData  = melt(finalData, id = idLabels, measure.vars = dataLabels)
 
 tidy_data   = dcast(meltData, subject + ActivityLabel ~ variable, mean)
 write.table(tidy_data, file = "./tidy_data.txt",row.names=FALSE, sep='\t')
-
-	
-		
-		
-
-
-		
-
-
-  
-  
-
-  
