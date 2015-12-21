@@ -35,11 +35,11 @@ The dataset includes the following files:
 
 - 'train/X_train.txt': Training set.
 
-- 'train/y_train.txt': Training labels.
+- 'train/Y_train.txt': Training labels.
 
 - 'test/X_test.txt': Test set.
 
-- 'test/y_test.txt': Test labels.
+- 'test/Y_test.txt': Test labels.
 
 The following files are available for the train and test data. Their descriptions are equivalent.
 
@@ -62,7 +62,7 @@ There are 5 parts:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-### How ```run_analysis.R``` implements the above steps:
+### How ```run_analysis.r``` implements the above steps:
 
 * Require ```reshapre2``` and ```data.table``` librareis.
 * Load both test and train data
