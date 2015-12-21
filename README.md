@@ -35,6 +35,8 @@ Good luck!
 * README.md -- This file you are now reading
 * CodeBook.md -- A code book that describes the variables, the data, and any transformations
 * run_analysis.R -- R code
+
+
 #________________________________
 
 ### Steps to work on this course project
